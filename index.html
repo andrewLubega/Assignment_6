@@ -8,12 +8,19 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 
 </head>
-<body>
-
-<div class="root">
-    <textarea id="inputText" placeholder="Enter your text here..."></textarea>
-    <button id="submitButton">Submit</button>
-</div>
-
-</body>
+    <body>
+        <div class="root">
+            <textarea id="inputText" placeholder="Enter your text here...">cat cat cat dog cat dog cat sky blue blue orange peel peel peel</textarea>
+            <button id="submitButton">Submit</button>
+            <table id="resultTable">
+                <thead>
+                    <tr>
+                        <th>Word Name</th>
+                        <th>Word Frequency</th>
+                    </tr>
+                </thead>
+                <tbody id="resultBody"></tbody>
+            </table>
+        </div>
+    </body>
 </html>
