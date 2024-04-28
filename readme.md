@@ -1,0 +1,1 @@
+This assignment was definitely a refresher on JS for me! It certainly has been a while since I've code something this tricky. Using DOM api was very interesting giving how easy it was to implement it's usage. I did however find trouble adding an event listener to properly work with the sumbit button, but it didn't take me long to work it out.
